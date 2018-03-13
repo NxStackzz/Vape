@@ -1,0 +1,73 @@
+.header{
+	background: lightgrey;
+	padding: 5px;
+	text-align: center;
+	font-family: Anton;
+}
+.flexbox {
+	display: flex;
+	margin: none;
+	background: #aaa;
+	flex-wrap: wrap;
+	font-family: Anton;
+}
+
+.box1{
+	border: 2px solid grey;
+	background: lightgrey;
+	border-radius: 40px;
+	width: 400px;
+	height: 300px;
+	margin: 5%;
+	order: 1;
+	box-shadow: -2px 2px 10px;
+
+}
+.box2{
+	border: 2px solid grey;
+	background: lightgrey;
+	border-radius: 40px;
+	width: 300px;
+	height: 300px;
+	margin: 5% 10%;
+	order: 2;
+	box-shadow: 2px 2px 10px;
+}
+.box3{
+	border: 2px solid grey;
+	background: lightgrey;
+	border-radius: 40px;
+	width: 400px;
+	height: 300px;
+	margin: 5%;
+	order: 4;
+	box-shadow: 2px 2px 10px;
+}
+.box4{
+	border: 2px solid grey;
+	background: lightgrey;
+	border-radius: 40px;
+	width: 300px;
+	height: 300px;
+	margin: 5% 10%;
+	order: 3;
+	box-shadow: -2px 2px 10px;
+}
+.sig {
+	font-size: 10px;
+}
+.rating {
+	text-align: center;
+	color: #debb00;
+}
+
+p {
+	text-align: center;
+}
+div img {
+	width: 275px;
+	height: 275px;
+	padding: 10px 10px;
+	border-radius: 2rem;
+}
+
